@@ -26,7 +26,7 @@ class SendSms{
      * @return   [type]          [description]
      */
     public function onePayfee($tel,$user){
-        $TemplateCode  ='SMS_137411587';
+        $TemplateCode  ='SMS_137426777';
         $TemplateParam = array(
             'userName' =>$user
         );
