@@ -23,3 +23,5 @@ $SendSms = new SendSms($params);
 $res = $SendSms->domesticVcode(手机号,验证码); //发送国内验证码
 echo '<pre>';
 print_r($res);
+3.composer 引入方法
+composer require songran/aliyun-sms dev-master
